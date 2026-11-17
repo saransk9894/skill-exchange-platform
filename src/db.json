@@ -1,0 +1,305 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "password": "password123",
+      "phone": "+1 (555) 019-2834",
+      "bio": "Senior Software Engineer specialized in React, Node.js, and TypeScript. Love helping others learn web technologies! I am eager to practice conversational Spanish and pick up basic guitar.",
+      "location": "San Francisco, CA",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+      "experienceLevel": "Expert",
+      "skillsOffered": ["Web Development", "ReactJS", "Node.js API"],
+      "skillsWanted": ["Spanish Conversation", "Acoustic Guitar"],
+      "role": "user",
+      "createdAt": "2026-01-10T12:00:00Z"
+    },
+    {
+      "id": "u2",
+      "name": "Roberto Gomez",
+      "email": "roberto@example.com",
+      "password": "password123",
+      "phone": "+1 (555) 023-4567",
+      "bio": "Native Spanish speaker from Madrid. Experienced Spanish tutor. Looking to learn modern web programming to build my own vocabulary learning app.",
+      "location": "Miami, FL",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "experienceLevel": "Expert",
+      "skillsOffered": ["Spanish Conversation", "Spanish Grammar"],
+      "skillsWanted": ["Web Development", "Python Programming"],
+      "role": "user",
+      "createdAt": "2026-02-15T09:30:00Z"
+    },
+    {
+      "id": "u3",
+      "name": "Clara Jenkins",
+      "email": "clara@example.com",
+      "password": "password123",
+      "phone": "+1 (555) 034-5678",
+      "bio": "Music enthusiast and classical guitar player. Offering lessons in beginner acoustic guitar, chords, and music theory. Excited to learn UI/UX and web design.",
+      "location": "Austin, TX",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150",
+      "experienceLevel": "Intermediate",
+      "skillsOffered": ["Acoustic Guitar", "Music Theory"],
+      "skillsWanted": ["Web Development", "UI/UX Design"],
+      "role": "user",
+      "createdAt": "2026-03-01T14:15:00Z"
+    },
+    {
+      "id": "u4",
+      "name": "Sarah Connor",
+      "email": "sarah@example.com",
+      "password": "password123",
+      "phone": "+1 (555) 045-6789",
+      "bio": "Fitness coach and personal trainer. Expert in strength training, nutrition planning, and high-intensity interval training. Looking to learn backyard gardening.",
+      "location": "Los Angeles, CA",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+      "experienceLevel": "Expert",
+      "skillsOffered": ["Fitness & HIIT", "Nutrition Planning"],
+      "skillsWanted": ["Gardening Basics", "Cooking Techniques"],
+      "role": "user",
+      "createdAt": "2026-04-05T10:00:00Z"
+    },
+    {
+      "id": "u5",
+      "name": "Marcus Aurelius",
+      "email": "marcus@example.com",
+      "password": "password123",
+      "phone": "+1 (555) 056-7890",
+      "bio": "Philosophy scholar and creative writer. Can teach essay composition, mindfulness, and classical Stoic philosophy. I really need to learn how to cook healthy meals!",
+      "location": "New York, NY",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+      "experienceLevel": "Expert",
+      "skillsOffered": ["Creative Writing", "Stoic Philosophy"],
+      "skillsWanted": ["Cooking Techniques", "Nutrition Planning"],
+      "role": "user",
+      "createdAt": "2026-05-12T11:45:00Z"
+    },
+    {
+      "id": "u_fake",
+      "name": "Fake Account Bot",
+      "email": "bot@example.com",
+      "password": "password123",
+      "phone": "+1 (555) 999-9999",
+      "bio": "Get rich quick schemes! Click my link for free coins! Spam spam spam.",
+      "location": "Siberia, RU",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150",
+      "experienceLevel": "Beginner",
+      "skillsOffered": ["Free Money Systems"],
+      "skillsWanted": ["Everything"],
+      "role": "user",
+      "createdAt": "2026-07-01T23:59:59Z",
+      "isFake": true
+    },
+    {
+      "id": "admin",
+      "name": "System Administrator",
+      "email": "admin@example.com",
+      "password": "admin",
+      "phone": "+1 (555) 000-0000",
+      "bio": "Skill Exchange Platform Admin Console.",
+      "location": "System Core",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=150",
+      "experienceLevel": "Expert",
+      "skillsOffered": ["System Operations"],
+      "skillsWanted": [],
+      "role": "admin",
+      "createdAt": "2026-01-01T00:00:00Z"
+    }
+  ],
+  "skills": [
+    {
+      "id": "s1",
+      "name": "Web Development",
+      "category": "Technology & Coding",
+      "description": "Learn to build modern, interactive websites using HTML, CSS, JavaScript, and Tailwind CSS. We will code together in real-time.",
+      "level": "Expert",
+      "userId": "u1",
+      "userName": "Alice Smith",
+      "createdAt": "2026-01-10T12:05:00Z"
+    },
+    {
+      "id": "s2",
+      "name": "Spanish Conversation",
+      "category": "Languages",
+      "description": "Practice conversational Spanish. Perfect for beginners or intermediates. We'll focus on useful, everyday dialogue.",
+      "level": "Expert",
+      "userId": "u2",
+      "userName": "Roberto Gomez",
+      "createdAt": "2026-02-15T09:35:00Z"
+    },
+    {
+      "id": "s3",
+      "name": "Acoustic Guitar",
+      "category": "Music & Arts",
+      "description": "Learn basic chords, fingerpicking, and simple songs. Designed for absolute beginners who just got a guitar.",
+      "level": "Intermediate",
+      "userId": "u3",
+      "userName": "Clara Jenkins",
+      "createdAt": "2026-03-01T14:20:00Z"
+    },
+    {
+      "id": "s4",
+      "name": "Fitness & HIIT",
+      "category": "Health & Fitness",
+      "description": "Customized bodyweight workouts and High-Intensity Interval Training. Learn proper form and sustainable habits.",
+      "level": "Expert",
+      "userId": "u4",
+      "userName": "Sarah Connor",
+      "createdAt": "2026-04-05T10:10:00Z"
+    },
+    {
+      "id": "s5",
+      "name": "Creative Writing",
+      "category": "Academics & Writing",
+      "description": "Techniques for structuring short stories, writing engaging dialogues, and overcoming writer's block.",
+      "level": "Expert",
+      "userId": "u5",
+      "userName": "Marcus Aurelius",
+      "createdAt": "2026-05-12T12:00:00Z"
+    },
+    {
+      "id": "s6",
+      "name": "Python Programming",
+      "category": "Technology & Coding",
+      "description": "Beginner-friendly intro to Python syntax, variables, lists, loops, and building simple CLI tools.",
+      "level": "Intermediate",
+      "userId": "u1",
+      "userName": "Alice Smith",
+      "createdAt": "2026-01-11T15:00:00Z"
+    }
+  ],
+  "exchange_requests": [
+    {
+      "id": "req1",
+      "senderId": "u2",
+      "senderName": "Roberto Gomez",
+      "receiverId": "u1",
+      "receiverName": "Alice Smith",
+      "skillOfferedId": "s2",
+      "skillOfferedName": "Spanish Conversation",
+      "skillWantedId": "s1",
+      "skillWantedName": "Web Development",
+      "status": "accepted",
+      "createdAt": "2026-06-10T10:00:00Z"
+    },
+    {
+      "id": "req2",
+      "senderId": "u3",
+      "senderName": "Clara Jenkins",
+      "receiverId": "u1",
+      "receiverName": "Alice Smith",
+      "skillOfferedId": "s3",
+      "skillOfferedName": "Acoustic Guitar",
+      "skillWantedId": "s1",
+      "skillWantedName": "Web Development",
+      "status": "pending",
+      "createdAt": "2026-07-10T11:00:00Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "b1",
+      "requestId": "req1",
+      "date": "2026-07-20",
+      "time": "14:00",
+      "type": "online",
+      "locationDetails": "https://meet.google.com/abc-defg-hij",
+      "status": "scheduled",
+      "notes": "First session: Let's do 30 mins of Spanish grammar followed by 30 mins of HTML basics.",
+      "completed": false,
+      "hasCertificate": false,
+      "createdAt": "2026-06-12T14:30:00Z"
+    },
+    {
+      "id": "b2",
+      "requestId": "req1",
+      "date": "2026-07-05",
+      "time": "10:00",
+      "type": "online",
+      "locationDetails": "https://meet.google.com/xyz-pdqr-stw",
+      "status": "completed",
+      "notes": "Introductory chit-chat and environment setup.",
+      "completed": true,
+      "hasCertificate": true,
+      "createdAt": "2026-06-11T09:15:00Z"
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat_u1_u2",
+      "user1Id": "u1",
+      "user2Id": "u2"
+    },
+    {
+      "id": "chat_u1_u3",
+      "user1Id": "u1",
+      "user2Id": "u3"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m1",
+      "senderId": "u2",
+      "receiverId": "u1",
+      "message": "Hi Alice! I saw your request for Spanish conversation. I would love to teach you Spanish in exchange for Web Development instruction!",
+      "timestamp": "2026-06-10T09:45:00Z",
+      "read": true
+    },
+    {
+      "id": "m2",
+      "senderId": "u1",
+      "receiverId": "u2",
+      "message": "Hi Roberto! That sounds fantastic. I accepted your exchange request. Let's book our first online video call session using the bookings tab!",
+      "timestamp": "2026-06-10T10:05:00Z",
+      "read": true
+    },
+    {
+      "id": "m3",
+      "senderId": "u2",
+      "receiverId": "u1",
+      "message": "Awesome! I will schedule a session on July 5th.",
+      "timestamp": "2026-06-10T10:12:00Z",
+      "read": true
+    },
+    {
+      "id": "m4",
+      "senderId": "u3",
+      "receiverId": "u1",
+      "message": "Hello Alice! I'm Clara. I'd love to teach you acoustic guitar chords if you can help me understand custom CSS and flexbox.",
+      "timestamp": "2026-07-10T11:00:00Z",
+      "read": false
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev1",
+      "bookingId": "b2",
+      "rating": 5,
+      "comment": "Roberto is an amazing Spanish tutor! He was super patient and taught me practical greetings. Look forward to our next coding-spanish exchange!",
+      "reviewerId": "u1",
+      "reviewerName": "Alice Smith",
+      "revieweeId": "u2",
+      "revieweeName": "Roberto Gomez",
+      "createdAt": "2026-07-05T11:30:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n1",
+      "userId": "u1",
+      "text": "Roberto Gomez accepted your skill exchange request!",
+      "type": "request",
+      "read": false,
+      "createdAt": "2026-06-10T10:00:00Z"
+    },
+    {
+      "id": "n2",
+      "userId": "u1",
+      "text": "You have a new exchange request from Clara Jenkins.",
+      "type": "request",
+      "read": false,
+      "createdAt": "2026-07-10T11:00:00Z"
+    }
+  ]
+}
